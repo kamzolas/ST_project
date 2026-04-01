@@ -1,0 +1,7 @@
+raw/
+processed/
+results/
+.venv/
+*.log
+*.png
+__pycache__/
