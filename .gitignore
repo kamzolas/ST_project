@@ -1,7 +1,16 @@
+
+# Ignore all raw data
 raw/
-processed/
-results/
+
+# Or more explicit (optional)
+raw/Xenium_raw/**
+raw/PathAI_raw/**
+
+# General ignores
 .venv/
+__pycache__/
+*.pyc
 *.log
 *.png
-__pycache__/
+processed/
+results/
