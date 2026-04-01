@@ -12,7 +12,8 @@ print("Current working directory:", os.getcwd())
 x = np.linspace(0, 2 * np.pi, 100)
 y_sin = np.sin(x)
 y_cos = np.cos(x)
-# y_cos =
+# y_cos and y_sin changes
+
 
 # 3️⃣ Create a DataFrame (like a table in R)
 df = pd.DataFrame({"x": x, "sin": y_sin, "cos": y_cos})
